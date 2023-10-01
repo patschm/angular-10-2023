@@ -1,0 +1,2066 @@
+[
+    {
+      "id": 590164,
+      "name": "ThinkPad Yoga 260 (Core i5)",
+      "brand": {
+        "id": 302,
+        "name": "Lenovo"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 1599,
+      "score": 7.824766645768783,
+      "image": "lenovo_thinkpad_yoga_260__core_i5_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": false
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 4
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 256
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2.3
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "i5-6200U"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 8
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 12.5
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 16
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": false
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "Dolby Home Theater v4"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 1320
+        }
+      ]
+    },
+    {
+      "id": 590162,
+      "name": "ZenBook Pro UX501 (Core i7)",
+      "brand": {
+        "id": 8,
+        "name": "Asus"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 1589.94,
+      "score": 6.5992752860769315,
+      "image": "asus_zenbook_pro_ux501__core_i7_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": false
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 128
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "i7-4750HQ"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            [],
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "hdsize",
+          "value": 1000
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 12
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 15.6
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 16
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": true
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "SonicMaster Premium"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "usb3",
+          "value": 3
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            [],
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 2050
+        }
+      ]
+    },
+    {
+      "id": 585816,
+      "name": "IdeaPad 100-15 (Core i3)",
+      "brand": {
+        "id": 302,
+        "name": "Lenovo"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 469,
+      "score": 5.2821384407817655,
+      "image": "lenovo_ideapad_100_15__core_i3_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": false
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 4
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 128
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2.2
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "i5-5200U"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 4
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 15.6
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 8
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": true
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "HDA"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "usb2",
+          "value": 1
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            [],
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 2300
+        }
+      ]
+    },
+    {
+      "id": 580763,
+      "name": "Chromebook 13 2015 (Core i5)",
+      "brand": {
+        "id": 17,
+        "name": "Dell"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 912.1,
+      "score": 5.889234917118493,
+      "image": "dell_chromebook_13_2015__core_i5_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": false
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 6
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 32
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2.3
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "i5-5300U"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 8
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 13.3
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 8
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": false
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "HD"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "usb2",
+          "value": 1
+        },
+        {
+          "key": "usb3",
+          "value": 1
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            [],
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 1460
+        }
+      ]
+    },
+    {
+      "id": 580756,
+      "name": "ROG G752VY (Core i7)",
+      "brand": {
+        "id": 8,
+        "name": "Asus"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 2299,
+      "score": 8.519551640194953,
+      "image": "asus_rog_g752vy__core_i7_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": false
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": true
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 8
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 512
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2.6
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "i7-6700HQ"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "hdsize",
+          "value": 1000
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": true
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 16
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 17.3
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 64
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": true
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "SonicMaster"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 4300
+        }
+      ]
+    },
+    {
+      "id": 577967,
+      "name": "EliteBook 745 G3 (AMD 10)",
+      "brand": {
+        "id": 3,
+        "name": "HP"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 1427.8,
+      "score": 7.4492429405727405,
+      "image": "hp_elitebook_745_g3__amd_10_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": false
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 3
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 256
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 1.8
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "A10 PRO-8700B"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 8
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 14
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 16
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": false
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "Bang & Olufsen"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            [],
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 1540
+        }
+      ]
+    },
+    {
+      "id": 577328,
+      "name": "Satellite L50D-C (AMD A10)",
+      "brand": {
+        "id": 6,
+        "name": "Toshiba"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 749,
+      "score": 5.638009910638597,
+      "image": "toshiba_satellite_l50d_c__amd_a10_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": false
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 4
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 1.8
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "A10-8700P"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "hdspeed",
+          "value": 5400
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 8
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 15.6
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 16
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": true
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "DTS"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "usb2",
+          "value": 1
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 2220
+        }
+      ]
+    },
+    {
+      "id": 577297,
+      "name": "Gaming GS40 6QE(Phantom) Core i7",
+      "brand": {
+        "id": 131,
+        "name": "MSI"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 1794.95,
+      "score": 7.132088840446445,
+      "image": "msi_gaming_gs40_6qe_phantom__core_i7.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": false
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": true
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 4
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_accu",
+          "value": 8060
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 128
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2.6
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "I7-6700HQ"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "hdsize",
+          "value": 1000
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 8
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 14
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 32
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": false
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "Nahimic Audio Enhancer"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "usb3",
+          "value": 2
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 1600
+        }
+      ]
+    },
+    {
+      "id": 577121,
+      "name": "Yoga 700-14 (Core i7)",
+      "brand": {
+        "id": 302,
+        "name": "Lenovo"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 1099,
+      "score": 7.031271305470749,
+      "image": "lenovo_yoga_700_14__core_i7_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": true
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 4
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 256
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2.5
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "i7-6500U"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 8
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 14
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 8
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": false
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "Dolby Home Theater"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "usb2",
+          "value": 1
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 1600
+        }
+      ]
+    },
+    {
+      "id": 577075,
+      "name": "Gaming Notebook IdeaPad Y700  (Core i7)",
+      "brand": {
+        "id": 302,
+        "name": "Lenovo"
+      },
+      "productGroup": {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": null,
+        "definitions": []
+      },
+      "price": 1249,
+      "score": 7.132088840446445,
+      "image": "lenovo_gaming_notebook_ideapad_y700___core_i7_.png",
+      "specifications": [
+        {
+          "key": "aansluiting_koptelefoon",
+          "value": true
+        },
+        {
+          "key": "aansluiting_microfoon",
+          "value": false
+        },
+        {
+          "key": "aansluitingen",
+          "value": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "key": "aantal_accucellen",
+          "value": 4
+        },
+        {
+          "key": "bit_variant",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "capaciteit_ssd",
+          "value": 128
+        },
+        {
+          "key": "card_reader",
+          "value": true
+        },
+        {
+          "key": "cpuspeed",
+          "value": 2.6
+        },
+        {
+          "key": "cputype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "cpuversion",
+          "value": "i7-6700HQ"
+        },
+        {
+          "key": "def_truecolors",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "energiebesparing",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "fullhd",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "hdsize",
+          "value": 1000
+        },
+        {
+          "key": "hdspeed",
+          "value": 5400
+        },
+        {
+          "key": "intern_subwoofer",
+          "value": false
+        },
+        {
+          "key": "interne_geheugen",
+          "value": 16
+        },
+        {
+          "key": "lightscribe",
+          "value": false
+        },
+        {
+          "key": "monres",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "monsize",
+          "value": 17.3
+        },
+        {
+          "key": "montype",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_3d_ondersteuning",
+          "value": false
+        },
+        {
+          "key": "nb_accu",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_microfoon",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_rammax64bitos_gb",
+          "value": 16
+        },
+        {
+          "key": "nb_toetsenbordindeling",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "nb_ultrabook",
+          "value": false
+        },
+        {
+          "key": "note_webcam",
+          "value": false
+        },
+        {
+          "key": "numeriek_toetsenbord",
+          "value": true
+        },
+        {
+          "key": "operating_system",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "opt_drive",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "other",
+          "value": ""
+        },
+        {
+          "key": "soundcard",
+          "value": "Dolby Home Theater"
+        },
+        {
+          "key": "tablet",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "type_opslag",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "usb2",
+          "value": 1
+        },
+        {
+          "key": "videocard_brand",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "videomodel",
+          "value": [
+            []
+          ]
+        },
+        {
+          "key": "weight",
+          "value": 3500
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,200 @@
+  {
+    "id": 1,
+    "name": "ThinkPad Yoga 260 (Core i5)",
+    "brand": {
+      "id": 302,
+      "name": "Lenovo"
+    },
+    "productGroup": {
+      "id": 1,
+      "name": "Laptops en notebooks",
+      "image": null,
+      "definitions": []
+    },
+    "price": 1599,
+    "score": 7.824766645768783,
+    "image": "lenovo_thinkpad_yoga_260__core_i5_.png",
+    "specifications": [
+      {
+        "key": "aansluiting_koptelefoon",
+        "value": true
+      },
+      {
+        "key": "aansluiting_microfoon",
+        "value": false
+      },
+      {
+        "key": "aansluitingen",
+        "value": [
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "key": "aantal_accucellen",
+        "value": 4
+      },
+      {
+        "key": "bit_variant",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "capaciteit_ssd",
+        "value": 256
+      },
+      {
+        "key": "card_reader",
+        "value": true
+      },
+      {
+        "key": "cpuspeed",
+        "value": 2.3
+      },
+      {
+        "key": "cputype",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "cpuversion",
+        "value": "i5-6200U"
+      },
+      {
+        "key": "def_truecolors",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "energiebesparing",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "fullhd",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "intern_subwoofer",
+        "value": false
+      },
+      {
+        "key": "interne_geheugen",
+        "value": 8
+      },
+      {
+        "key": "lightscribe",
+        "value": false
+      },
+      {
+        "key": "monres",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "monsize",
+        "value": 12.5
+      },
+      {
+        "key": "montype",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "nb_3d_ondersteuning",
+        "value": false
+      },
+      {
+        "key": "nb_accu",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "nb_microfoon",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "nb_rammax64bitos_gb",
+        "value": 16
+      },
+      {
+        "key": "nb_toetsenbordindeling",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "nb_ultrabook",
+        "value": false
+      },
+      {
+        "key": "note_webcam",
+        "value": false
+      },
+      {
+        "key": "numeriek_toetsenbord",
+        "value": false
+      },
+      {
+        "key": "operating_system",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "opt_drive",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "other",
+        "value": ""
+      },
+      {
+        "key": "soundcard",
+        "value": "Dolby Home Theater v4"
+      },
+      {
+        "key": "tablet",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "type_opslag",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "videocard_brand",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "videomodel",
+        "value": [
+          []
+        ]
+      },
+      {
+        "key": "weight",
+        "value": 1320
+      }
+    ]
+  }

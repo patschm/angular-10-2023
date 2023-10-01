@@ -1,0 +1,29 @@
+<div id="container">
+  <div>
+    <select size="10" (change)="selectProduct($event)">
+      <option *ngFor="let product of products(); index as idx" [value]="idx">
+        {{product.brand + ' ' + product.name + ' (' + (product.price | currency:"EUR") + ')'}}
+      </option>
+    </select>    
+  </div>
+  <div>
+    <div>
+      <label for="brand">Brand</label>
+      <input id="brand" type="text" [value]="productState.current().brand" (input)="productState.brand = brand.value" #brand />
+    </div>
+    <div>
+      <label for="name">Name</label>
+      <input id="name" [value]="productState.current().name" type="text" (input)="productState.name = name.value" #name />
+    </div>
+    <div>
+      <label for="price">Price</label>
+      <input id="price" [value]="productState.current().price" type="number" (input)="productState.price = +price.value" step="10" #price/>
+    </div>
+  </div>
+</div>
+
+<hr>
+<h2>Selected product: {{productState.current().brand + ' ' + productState.current().name}}</h2>
+<hr>
+<h2>Order Quantity:</h2><input type="number" [value]="counter()" (change)="counter.set(+count.value)" #count/>
+<h2>Total Price: {{linePrice() | currency:"EUR"}}</h2>
