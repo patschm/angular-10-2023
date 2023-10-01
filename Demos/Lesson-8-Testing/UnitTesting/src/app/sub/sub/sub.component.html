@@ -1,0 +1,5 @@
+<h3>Messages</h3>
+<ul>
+    <li *ngFor="let msg of messages$ | async, let idx=index" data-id="{{idx}}">
+        <button (click)="onDelete(msg)">delete</button>{{msg}}</li>
+</ul>
