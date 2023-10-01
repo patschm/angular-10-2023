@@ -1,0 +1,11 @@
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\bin\Debug\net6.0\DataLayer.Interfaces.deps.json
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\bin\Debug\net6.0\DataLayer.Interfaces.dll
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\bin\Debug\net6.0\DataLayer.Interfaces.pdb
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.AssemblyInfoInputs.cache
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.AssemblyInfo.cs
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.csproj.CoreCompileInputs.cache
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.dll
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\refint\DataLayer.Interfaces.dll
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\DataLayer.Interfaces.pdb
+D:\angular-10-2023\DataLayer\DataLayer.Interfaces\obj\Debug\net6.0\ref\DataLayer.Interfaces.dll

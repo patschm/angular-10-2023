@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "60usnWV7qBGXHSRgsXvvTDO5ke3aIhQbwfS4lEUQwVE=",
+  "Source": "DataLayer.WebApi",
+  "BasePath": "_content/DataLayer.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
