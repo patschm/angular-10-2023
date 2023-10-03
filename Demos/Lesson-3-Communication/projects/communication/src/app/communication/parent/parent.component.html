@@ -3,4 +3,4 @@
 <input type="text" (input)="onChangeParent($event)" />
 <h3>From child: {{childName}}</h3>
 <hr/>
-<app-child [name]="someName" (modified)="onChildChange($event)"></app-child>
+<app-child [kebab-case]="someName" (modified)="onChildChange($event)"></app-child>
