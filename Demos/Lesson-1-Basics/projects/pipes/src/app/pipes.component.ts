@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PipesComponent implements OnInit 
 {
-  public price: number = 123.456789;
+  public price: number = 3.456741;
   public today: Date = new Date();
   public text: string = "some text";
+  public format: string = '4.3-5';
   
   constructor() { }
 

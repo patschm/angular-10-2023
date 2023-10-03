@@ -24,7 +24,7 @@
 </div>
 <h2>The magical ngFor</h2>
 <ul>
-        <li *ngFor="let x of numbers; even as isEven; index as s" [ngClass]="{'bgRed':isEven}">({{s}}) {{x}}</li>
+        <li *ngFor="let x of numbers; odd as isEven; index as s" [ngClass]="{'bgRed':isEven}">({{s}}) {{x}}</li>
 </ul>
 <h2>Or fully expanded</h2>
 <ul>
@@ -35,4 +35,4 @@
 <hr />
 <h1 [ngStyle]="{'background-color': 'yellow', 'color': 'blue'}">ngStyle</h1>
 <h1 [ngClass]="{'someclass':hidden}">ngClass</h1>
-<h1 appCustomAttribute="green">Custom Directive</h1>
+<h1 [appCustomAttribute]="'red'">Custom Directive</h1>

@@ -1,0 +1,17 @@
+<h1>{{text.value}}</h1>
+<input type="text" [formControl]="text"/><span *ngIf="text.errors?.['required']">Name is required</span>
+<br/>
+<button (click)="text.reset()">Reset</button>
+
+<form [formGroup]="theForm" (ngSubmit)="submit()">
+    <input type="text" formControlName="name" />
+    <span [hidden]="theForm.controls['name'].errors?.['required']">Name is required</span>
+    <br/>
+    <input type="number" formControlName="age" />
+    <div  [hidden]="!theForm.controls['age'].errors">
+      <span *ngIf="theForm.controls['age'].errors?.['min']">Leeftijd te laag</span>
+      <span *ngIf="theForm.controls['age'].errors?.['max']">Leeftijd te hoog</span>
+    </div>
+    <br/>
+    <button [disabled]="!theForm.valid" type="submit">Post</button>
+  </form>

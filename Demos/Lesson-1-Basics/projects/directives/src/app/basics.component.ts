@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-basics',
   templateUrl: './basics.component.html',
   styleUrls: ['./basics.component.css']
 })
-export class BasicsComponent implements OnInit 
+export class BasicsComponent implements OnInit, OnDestroy 
 {
   public number: number = 4;
   public name:string = "John Doe";
@@ -18,6 +18,9 @@ export class BasicsComponent implements OnInit
   }
   
   constructor() { }
+  ngOnDestroy(): void {
+    //throw new Error('Method not implemented.');
+  }
 
   ngOnInit() {
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o+qiSfqNGsxZQYkIhbxRzzIkdHKzAU7qKjJ0F1K5ttJaC0xKpmKQDb5R9gD8ut6tUI2sqpO7VJLMU0dy18d9LA==",
+  "dgSpecHash": "fefqsmKSH48z7oAfF5hR1EyEfDvIj+qyuKpz+jopGZGR8UNmZ/+ZgkOa+vSVhTIJcNrOaofIeUnn+fhg5BXejw==",
   "success": true,
-  "projectFilePath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+  "projectFilePath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

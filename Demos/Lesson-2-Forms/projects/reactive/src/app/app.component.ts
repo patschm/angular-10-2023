@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <app-reactive></app-reactive>
+    <app-typed></app-typed>
   `,
   styles: []
 })
