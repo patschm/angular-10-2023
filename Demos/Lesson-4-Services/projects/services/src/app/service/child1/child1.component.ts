@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { Person } from '../person';
 import { StateService } from '../state.service';
 
@@ -17,6 +17,7 @@ export class Child1Component implements OnInit
   }
   public register()
   {
+    const svc2 = inject(StateService);
     this.state.setPerson(this._data);
   }
 
