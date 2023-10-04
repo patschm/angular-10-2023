@@ -1,31 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj": {}
+    "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
+    "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+        "projectUniqueName": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
         "projectName": "DataLayer.Interfaces",
-        "projectPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+        "projectPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\obj\\",
+        "outputPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,40 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
+    "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
+        "projectUniqueName": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
         "projectName": "DataLayer.Repository.Memory",
-        "projectPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
+        "projectPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\obj\\",
+        "outputPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
-                "projectPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
+              "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
+                "projectPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
               }
             }
           }
@@ -131,43 +123,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj": {
+    "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
+        "projectUniqueName": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
         "projectName": "DataLayer.WebApi",
-        "projectPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
+        "projectPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\DataLayer.WebApi.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\obj\\",
+        "outputPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
-                "projectPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
+              "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
+                "projectPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
               },
-              "D:\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
-                "projectPath": "D:\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj"
+              "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
+                "projectPath": "E:\\Angular\\angular-10-2023\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj"
               }
             }
           }
@@ -206,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

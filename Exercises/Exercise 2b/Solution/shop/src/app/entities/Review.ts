@@ -1,9 +1,9 @@
 export class Review
 {
     public productID : Number;
-    public author: String;
-    public text:String;
-    public score:Number;
+    public author: string;
+    public text:string;
+    public score:number;
 
     constructor(){
         this.productID = 0;

@@ -11,12 +11,12 @@ import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [Child1Component, Child2Component, ParentComponent],
-  exports:[ParentComponent],
+  exports:[ParentComponent, Child1Component],
   imports: [
     CommonModule,
     FormsModule,
     HttpClientModule
   ],
-  providers:[StateService]
+  providers:[]
 })
 export class ServiceModule { }

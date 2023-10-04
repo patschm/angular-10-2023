@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { RestModule } from './rest/rest.module';
 import { ServiceModule } from './service/service.module';
+import { EmptyModule } from './service/empty/empty.module';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { ServiceModule } from './service/service.module';
   imports: [
     BrowserModule,
     ServiceModule,
+    RestModule,
     RestModule
   ],
   providers: [],

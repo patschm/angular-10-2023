@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Review } from 'src/app/entities';
+import { IReviewViewModel, ReviewViewModel } from 'src/app/viewmodels/review.viewmodel';
 
 @Component({
   selector: 'app-product-review',
@@ -13,10 +14,21 @@ export class ProductReviewComponent implements OnInit {
   public _review: Review = new Review();
   public submitted = false;
 
+  // public reviewModel = new FormGroup<IReviewViewModel>(
+  //   {
+  //     author: new FormControl<string>('', Validators.required),
+  //     text: new FormControl('', Validators.required),
+  //     score: new FormControl(0, {
+  //       nonNullable:true, 
+  //       validators: [Validators.min(0), Validators.max(5), Validators.required]})
+  //   }
+  // );
+  public reviewModel:FormGroup<IReviewViewModel> = new ReviewViewModel(this._review);
+
   public onSubmit() {
       this.submitted = true;
       // TODO: 4 Assign values from reviewForm to _review.
-      Object.assign(this._review, this.reviewForm.value);
+      Object.assign(this._review, this.reviewModel.value);
       console.log(this._review);
   }
   // TODO: 3 Inject the FormBuilder and build the reviewForm with the fields:
@@ -38,9 +50,25 @@ export class ProductReviewComponent implements OnInit {
         map.set(x, this.reviewForm.get(x));
     }
     return Object.fromEntries(map);
+  }
+  public get model():IReviewViewModel {
+    let map = new Map();
+    for(let x in this.reviewModel.controls)
+    {
+        map.set(x, this.reviewModel.get(x));
+    }
+    return Object.fromEntries(map);
   } 
 
+  public get Model():ReviewViewModel{
+    return this.reviewModel as ReviewViewModel;
+  }
   ngOnInit(): void {
+    this._review.author='Jan';
+    this._review.score = 2;
+    this._review.text='hello';
+    //this.reviewModel.setValue(this._review);
+    Object.assign(this.reviewModel.value, this._review);
   }
 }
 

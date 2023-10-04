@@ -93,6 +93,205 @@
           }
         }
       }
+    },
+    "ReduxCore": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/redux-core",
+      "sourceRoot": "projects/redux-core/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/redux-core",
+            "index": "projects/redux-core/src/index.html",
+            "main": "projects/redux-core/src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "projects/redux-core/tsconfig.app.json",
+            "assets": [
+              "projects/redux-core/src/favicon.ico",
+              "projects/redux-core/src/assets"
+            ],
+            "styles": [
+              "projects/redux-core/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "projects/redux-core/src/environments/environment.ts",
+                  "with": "projects/redux-core/src/environments/environment.development.ts"
+                }
+              ]
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "ReduxCore:build:production"
+            },
+            "development": {
+              "browserTarget": "ReduxCore:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ReduxCore:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "projects/redux-core/tsconfig.spec.json",
+            "assets": [
+              "projects/redux-core/src/favicon.ico",
+              "projects/redux-core/src/assets"
+            ],
+            "styles": [
+              "projects/redux-core/src/styles.css"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    },
+    "ReduxLatest": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/redux-latest",
+      "sourceRoot": "projects/redux-latest/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/redux-latest",
+            "index": "projects/redux-latest/src/index.html",
+            "main": "projects/redux-latest/src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "projects/redux-latest/tsconfig.app.json",
+            "assets": [
+              "projects/redux-latest/src/favicon.ico",
+              "projects/redux-latest/src/assets"
+            ],
+            "styles": [
+              "projects/redux-latest/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "projects/redux-latest/src/environments/environment.ts",
+                  "with": "projects/redux-latest/src/environments/environment.development.ts"
+                }
+              ]
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "ReduxLatest:build:production"
+            },
+            "development": {
+              "browserTarget": "ReduxLatest:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ReduxLatest:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "projects/redux-latest/tsconfig.spec.json",
+            "assets": [
+              "projects/redux-latest/src/favicon.ico",
+              "projects/redux-latest/src/assets"
+            ],
+            "styles": [
+              "projects/redux-latest/src/styles.css"
+            ],
+            "scripts": []
+          }
+        }
+      }
     }
+  },
+  "cli": {
+    "schematicCollections": [
+      "@ngrx/schematics"
+    ]
   }
 }

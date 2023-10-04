@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { concatMap, delay, exhaustMap, interval, map, mergeMap, Observable, of, Subject, switchMap } from 'rxjs';
+import { concatMap, delay, exhaustMap, firstValueFrom, interval, map, mergeMap, Observable, of, Subject, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +17,7 @@ export class AppComponent implements OnInit
   private subject$: Observable<number> = interval(1000).pipe(map(n=>n++));
 
   ngOnInit(): void {
+    //this.subject$.pipe(map(async n=>await firstValueFrom(this.emulateCall(n))))
     this.subject$.subscribe(n=>this.nummer = n);
     // Anti pattern
     // this.subject$.subscribe(nr=>{

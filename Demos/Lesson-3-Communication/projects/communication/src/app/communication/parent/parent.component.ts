@@ -14,7 +14,7 @@ export class ParentComponent implements OnInit
   {
       this.someName = arg.target.value;
   }
-  public onChildChange(arg:any)
+  public onChildChange(arg:string)
   {
       this.childName = arg;
   }

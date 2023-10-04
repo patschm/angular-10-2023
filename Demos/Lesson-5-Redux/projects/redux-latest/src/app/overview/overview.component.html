@@ -1,0 +1,4 @@
+<h1>Overview</h1>
+<select #sel (change)="onSelect(+sel.value)" size="10" style="width: 200px;" >
+    <option *ngFor="let item of items; index as idx" [value]="idx" [selected]="idx == 0">{{item}}</option>
+</select>
