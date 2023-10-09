@@ -14,12 +14,12 @@ describe('ProductGroupListComponent', ()=>{
   // TODO: 2a. Create a spy for the ProductgroupService
   // method: productgroup
   // property: productgroups$ which returns dummyData
-  const productGroupServiceSpy = jasmine.createSpyObj('ProductgroupService', 
+  const productGroupServiceSpy = jasmine.createSpyObj<ProductgroupService>(
     ['productgroup'], 
     {productgroups$:of(dummyData)});
   // TODO: 2b. Create a spy for Redux Store.
   // method: dispatch
-  const storeSpy = jasmine.createSpyObj('Store', ['dispatch']);
+  const storeSpy = jasmine.createSpyObj<Store>(['dispatch']);
   // TODO: 2c. Declare a fixture variable for ProductgroupListComponent
   let pglComponent: ComponentFixture<ProductgroupListComponent>;
 
