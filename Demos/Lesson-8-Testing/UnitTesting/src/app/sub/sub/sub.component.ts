@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { EMPTY, Observable } from 'rxjs';
 import { EMPTY_OBSERVER } from 'rxjs/internal/Subscriber';
-import { MessageService } from 'src/app/message-service.service';
+import { MessageService } from 'src/app/core/services/message-service.service';
+
 
 @Component({
   selector: 'app-sub',

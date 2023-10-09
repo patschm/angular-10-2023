@@ -1,8 +1,8 @@
-import { MessageService } from "src/app/message-service.service";
 import { BaseComponent } from "./base-component.component";
 import { TestBed, ComponentFixture } from "@angular/core/testing";
 import { By } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
+import { MessageService } from "src/app/core/services/message-service.service";
 
 describe("BaseComponent", ()=>{
     let component: BaseComponent;

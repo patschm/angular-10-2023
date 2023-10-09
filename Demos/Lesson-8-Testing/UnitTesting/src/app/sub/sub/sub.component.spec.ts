@@ -1,10 +1,10 @@
 import { of } from "rxjs";
-import { MessageService } from "src/app/message-service.service";
 import { SubComponent } from "./sub.component";
 import { ComponentFixture, TestBed } from "@angular/core/testing";
 import { By } from "@angular/platform-browser";
 import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from "@angular/platform-browser-dynamic/testing";
-
+import { MessageService } from "src/app/core/services/message-service.service";
+// TODO: SpyObject
 describe("SubComponent", ()=>{
     let msgService: MessageService;
     let fixture: ComponentFixture<SubComponent>;
