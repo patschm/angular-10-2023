@@ -17,16 +17,9 @@ describe('AppComponent', ()=>{
     beforeEach(()=>{
         console.log('--- Before each');
         // Maybe not a good idea to intercept service call.
-        //cy.intercept('GET', 'https://localhost:5001/products/all/*', 
-        //     { fixture: 'products.json',statusCode:200 }).as('getproducts');
-        cy.intercept('GET', 'https://localhost:5001/products/all/*').as('getproducts');
-    });
-    it('should show overview', ()=>{
-        cy.visit('/');
-        cy.url().should('include', 'overview');
-        cy.wait('@getproducts').its('response.statusCode').should('eq', 200);
-        cy.title().should('eq', 'Products');
-        cy.get('tbody>tr').should('have.length', 10);     
+        cy.intercept('GET', 'https://localhost:5001/products/all/*', 
+             { fixture: 'products.json',statusCode:200 }).as('getproducts');
+        //cy.intercept('GET', 'https://localhost:5001/products/all/*').as('getproducts');
     });
     it('should show navigate to detail', ()=>{
         cy.visit('/');
@@ -35,6 +28,14 @@ describe('AppComponent', ()=>{
         cy.title().should('eq', 'Details');
         cy.get("h2").should("not.be.empty");
     });
+    it('should show overview', ()=>{
+        cy.visit('/');
+        cy.url().should('include', 'overview');
+        cy.wait('@getproducts').its('response.statusCode').should('eq', 200);
+        cy.title().should('eq', 'Products');
+        cy.get('tbody>tr').should('have.length', 10);     
+    });
+    
     
     describe('Product Details', ()=>{
         it('should show image', ()=>{

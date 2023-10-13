@@ -22,6 +22,7 @@ Cypress.Commands.add('toFirstDetail', ()=>{
     cy.get("h2").should("not.be.empty");
 });
 
+
 declare namespace Cypress {
     interface Chainable {
         login(user: string, pass: string): Chainable<void>,
