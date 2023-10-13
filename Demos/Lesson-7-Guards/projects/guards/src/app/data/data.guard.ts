@@ -1,8 +1,9 @@
 import { inject } from '@angular/core';
-import { ActivatedRouteSnapshot, RouterStateSnapshot} from '@angular/router';
+import { ActivatedRouteSnapshot, ResolveFn, RouterStateSnapshot} from '@angular/router';
 import { DataService } from './data.service';
+import { Observable } from 'rxjs';
 
-export const dataGuard = (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) =>
+export const dataGuard: ResolveFn<Observable<string>> = (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) =>
   {
     const svc = inject(DataService);
     return svc.text;

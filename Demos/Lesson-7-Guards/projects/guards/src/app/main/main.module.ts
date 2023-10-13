@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainComponent } from './main/main.component';
 import { Main1Component } from './main1/main1.component';
-import { Main2Component } from './main2/main2.component';
+import { Main2Component, saved } from './main2/main2.component';
 import { Main3Component } from './main3/main3.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { RouterModule, Routes } from '@angular/router';
@@ -13,7 +13,7 @@ import { dataGuard } from '../data/data.guard';
 
 const routes: Routes = [
   { path:'main1', component:Main1Component, resolve:{someData:dataGuard} },
-  { path:'main2', component:Main2Component },
+  { path:'main2', component:Main2Component, canDeactivate:[saved] },
   { path:'main3', component:Main3Component, canActivate:[authGuard] },
   { path:'login', component:LoginComponent},
   { path: '', redirectTo: '/main1', pathMatch:'full' },

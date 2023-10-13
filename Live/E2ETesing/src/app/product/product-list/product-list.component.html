@@ -1,0 +1,15 @@
+<h1>Products</h1>
+<table class="table table-striped">
+    <tbody>
+        <tr *ngFor="let p of products$ | async" (click)="selectProduct(p)">
+            <td>
+                <h5>{{p.brand.name}}</h5>
+            </td>
+            <td>
+                <h5>{{p.name}}</h5>        
+            </td>
+        </tr>
+    </tbody>  
+</table>
+
+

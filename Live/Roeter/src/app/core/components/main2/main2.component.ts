@@ -11,12 +11,15 @@ import { pipe } from 'rxjs';
 export class Main2Component implements OnInit 
 {
   public someNr:number = 0;
+  public isActive:boolean = true;
+
   public navigate(nr:number)
   {
     this.rrouer.navigate(['/main2', nr])
   }
   constructor(private ar:ActivatedRoute, private rrouer:Router) {
-    this.ar.params.pipe(takeUntilDestroyed()).subscribe(pm=>this.someNr = pm['id'])
+    this.ar.params.pipe(takeUntilDestroyed()).subscribe(pm=>this.someNr = pm['id']);
+    //this.someNr = +this.ar.snapshot.paramMap.get('id')!;
    }
 
   ngOnInit()

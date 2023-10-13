@@ -1,0 +1,1493 @@
+[
+    {
+        "id": 1,
+        "name": "Laptops en notebooks",
+        "image": "laptops_en_notebooks.png",
+        "definitions": [
+            {
+                "key": "cputype",
+                "name": "Processor",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Voor <b>zware taken</b> (videobewerking/games/professioneel fotobewerken) kies een <b>Intel Core i7</b> of <b>AMD A10 of hoger</b>.\n\nVoor <b>middelzware taken</b> (fotobewerking, school/studie), kies een <b>Intel Core i5</b> of <b>AMD A8</b> of hoger.\n\nAlle andere processoren zijn geschikt voor taken als tekstbewerken, films kijken, internetten."
+            },
+            {
+                "key": "cpuversion",
+                "name": "Uitvoering",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "cpuspeed",
+                "name": "Kloksnelheid",
+                "value": null,
+                "unit": "GHz",
+                "type": "number",
+                "description": "Hoe hoger het aantal GHz, hoe sneller de laptop. <br>Als je een laptop wilt kopen die op de toekomst is voorbereid, bezuinig dan niet op de processorsnelheid."
+            },
+            {
+                "key": "interne_geheugen",
+                "name": "Geheugen",
+                "value": null,
+                "unit": "GB",
+                "type": "number",
+                "description": "<b>Tot 6GB</b>: Internetten, tekstverwerken, simpel foto's bewerken en films kijken.\n\n<b>6GB of meer</b>: Fotobewerking, school, office taken.\n\n<b>8GB of meer</b>: Videobewerking, fotobewerking of games.\n\n<b>12GB of meer</b>: Videobewerking, zware games, professioneel fotobewerken, cad cam"
+            },
+            {
+                "key": "nb_rammax64bitos_gb",
+                "name": "Max. interne geheugen (bij 64-bit)",
+                "value": null,
+                "unit": "GB",
+                "type": "number",
+                "description": "Dit is de maximale hoeveelheid geheugen dat ondersteund wordt met een 64-bits besturingssysteem."
+            },
+            {
+                "key": "montype",
+                "name": "Beeldschermtype",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "monsize",
+                "name": "Schermgrootte",
+                "value": null,
+                "unit": "inch",
+                "type": "number",
+                "description": "Het ideale schermformaat is afhankelijk van de manier waarop je jouw laptop gaat gebruiken:\n\n14 inch of kleiner: Gebruik onderweg\n15 inch of groter: Thuis of op kantoor werken\n\nBij films kijken, foto- en videobewerking en het spelen van games is een formaat van 17 inch aan te raden.  Houd er wel rekening mee dat\ndeze laptops vanwege het gewicht minder geschikt zijn om mee op pad te gaan."
+            },
+            {
+                "key": "monres",
+                "name": "Beeldschermresolutie",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "De resolutie bepaalt onder andere hoeveel er op het beeld \"past\". Met een hogere resolutie kun je meerdere vensters naast elkaar zetten.\n\nVoor fotobewerking of meerdere vensters naast elkaar kies je voor minstens Full HD."
+            },
+            {
+                "key": "fullhd",
+                "name": "Full HD",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Een notebook beschikt over een Full HD scherm wanneer hij een resolutie heeft van minimaal 1920 x 1080 pixels."
+            },
+            {
+                "key": "nb_beeldscherm-coating",
+                "name": "Beeldscherm-coating",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Een zeer persoonlijke keuze. Spiegelende schermen ogen vaak scherper en helderder, terwijl matte schermen wat rustiger voor de ogen zijn. Dit in verband met de mindere reflectie."
+            },
+            {
+                "key": "videocard_brand",
+                "name": "Videokaart merk",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "videomodel",
+                "name": "Model videokaart",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "videogeheugen",
+                "name": "Videogeheugen",
+                "value": null,
+                "unit": "MB",
+                "type": "number",
+                "description": "Videogeheugen<b> t/m 2GB</b> is geschikt voor thuisgebruik, fotobewerking, school, officetaken en simpele games.<br>\nVideokaarten van <b>3 t/m 4GB </b>zijn geschikt voor onder andere videobewerking en zwaardere games.<br>\nKies <b>8 GB of meer</b> voor maximale prestaties van topgames en zware applicaties."
+            },
+            {
+                "key": "nb_3d_ondersteuning",
+                "name": "3D-ondersteuning",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "note_webcam",
+                "name": "Ingebouwde webcam",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "webcam_resolutie",
+                "name": "Resolutie webcam",
+                "value": null,
+                "unit": "MP",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "soundcard",
+                "name": "Geluid",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "aansluiting_koptelefoon",
+                "name": "Aansluiting koptelefoon",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "aansluiting_microfoon",
+                "name": "Aansluiting microfoon",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "intern_subwoofer",
+                "name": "Ingebouwde subwoofer",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Een subwoofer zorgt voor een mooier laag geluid. Dit is een voordeel wanneer je veel games speelt of films kijkt op je notebook."
+            },
+            {
+                "key": "nb_microfoon",
+                "name": "Ingebouwde microfoon",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "type_opslag",
+                "name": "Type opslag",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Een gewone <b>harde schijf</b> is <b>goedkoop</b> en beschikt over <b>veel opslagcapaciteit voor weinig geld</b>.\n\n<b>SSD schijven</b> zijn <b>duurder</b> maar <b>vele malen sneller</b> in vergelijking met een gewone harde schijf.\n\nSommige laptops beschikken over beide soorten om de voordelen van beide schijven te combineren."
+            },
+            {
+                "key": "hdsize",
+                "name": "Capaciteit HDD",
+                "value": null,
+                "unit": "GB",
+                "type": "number",
+                "description": "De capaciteit van de harde schijf bepaalt hoeveel je kunt opslaan. Denk hierbij aan foto's, video's, documenten, muziek  maar ook programma's.\n\nVoor gebruik <b>thuis en school is 500GB</b> over het algemeen ruim voldoende.\n\nKies voor meer opslag als je erg veel muziek, foto's en video wilt opslaan."
+            },
+            {
+                "key": "hdspeed",
+                "name": "Snelheid HDD",
+                "value": null,
+                "unit": "rpm",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "capaciteit_ssd",
+                "name": "Capaciteit SSD",
+                "value": null,
+                "unit": "GB",
+                "type": "number",
+                "description": "SSD schijven hebben vanwege de hogere prijs vaak een kleinere capaciteit in vergelijking met gewone harddisk drives. Veelal gebruikt men een SSD schijf in combinatie met opslagruimte \"in the cloud\"."
+            },
+            {
+                "key": "opt_drive",
+                "name": "Optische drive",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "lightscribe",
+                "name": "Lightscribe",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "card_reader",
+                "name": "Geheugenkaartlezer",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "aansluitingen",
+                "name": "Aansluitingen",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "usb2",
+                "name": "Aantal USB 2.0 poorten",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "usb3",
+                "name": "Aantal USB 3.0 poorten",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "nb_toetsenbordindeling",
+                "name": "Toetsenbordindeling",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "In Nederland gebruiken we een “qwerty” toetsenbord terwijl in België gebruik wordt gemaakt van een “azerty” toetsenbord. De namen van de toetsenborden zijn afgeleid van de eerste zes letters die op het toetsenbord staan."
+            },
+            {
+                "key": "numeriek_toetsenbord",
+                "name": "Numeriek toetsenbord",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "nb_accu",
+                "name": "Accu",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "aantal_accucellen",
+                "name": "Aantal accucellen",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "capaciteit_accu",
+                "name": "Capaciteit accu",
+                "value": null,
+                "unit": "mAh",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "nb_accu-bedrijfstijd",
+                "name": "Accu-bedrijfstijd",
+                "value": null,
+                "unit": "uur",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "energiebesparing",
+                "name": "Energiebesparing",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "operating_system",
+                "name": "Besturingssysteem",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "bit_variant",
+                "name": "Bit variant",
+                "value": null,
+                "unit": "bit",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "weight",
+                "name": "Gewicht",
+                "value": null,
+                "unit": "gram",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "nb_energievergelijking",
+                "name": "Energievergelijking",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Op Kieskeurig.nl kun je het actuele aanbod van alle energieleveranciers vergelijken. Onafhankelijk en betrouwbaar."
+            },
+            {
+                "key": "other",
+                "name": "Deprecated > Overige bijzonderheden",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "def_truecolors",
+                "name": "Kleuren",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "tablet",
+                "name": "Type laptop",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Een <b>‘gewone’ laptop</b> is bedoeld om opengeklapt op schoot of een bureau te gebruiken. Een laptop heeft een normaal toetsenbord en een touchpad, en is afhankelijk van de configuratie krachtig genoeg voor gaming en videobewerking. \n\nEen <b>netbook (of minilaptop)</b> is een laptop met een extra klein scherm waardoor je ze eenvoudig mee kunt nemen. Voordelen van een netbook zijn de draagbaarheid, de levensduur van de batterij en vooral ook de gunstige prijs. Meestal is er slechts een klein toetsenbord ingebouwd en zijn ze vaak niet voorzien van een optische drive.\n\nEen <b>Ultrabook</b> is een laptop die voldoet aan specifiek vastgestelde eisen van Intel. Deze eisen gaan over de maximale dikte, gewicht en accuduur. \n\nEen <b>touchscreen laptop</b> is een laptop met een touchscreen scherm."
+            },
+            {
+                "key": "nb_ultrabook",
+                "name": "Ultrabook",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "<b>Ultrabooks</b> zijn maximaal 2 cm dik, wegen niet meer dan 1,4 kilo, zijn binnen enkele seconden uit stand-by en hebben een minimale accugebruiksduur van 5 uur."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Digitale Camera's",
+        "image": "digitale_camera_s.png",
+        "definitions": [
+            {
+                "key": "pixelnum",
+                "name": "Megapixel",
+                "value": null,
+                "unit": "MP",
+                "type": "number",
+                "description": "Hoe meer megapixels hoe groter je de foto kunt uitprinten zonder kwaliteitsverlies. Voor afdrukken op A4 formaat kies je minimaal voor 9 megapixels."
+            },
+            {
+                "key": "resmax",
+                "name": "Maximale resolutie",
+                "value": null,
+                "unit": "pixels",
+                "type": "text",
+                "description": "Hoe hoger de resolutie, hoe groter je de foto kunt afdrukken zonder kwaliteitsverlies. Voor afdrukken van A4-formaat kies je voor minimaal zo'n 3400 x 2600 pixels."
+            },
+            {
+                "key": "beeldsensor",
+                "name": "Formaat beeldsensor",
+                "value": null,
+                "unit": "inch",
+                "type": "number",
+                "description": "Hoe groter de sensor, hoe beter de kwaliteit van de foto's (scherpte, detaillering en minder ruis). Voor maximale kwaliteit binnen de compactcamea's kies je voor een beeldsensor van 0,5 inch of groter."
+            },
+            {
+                "key": "toevoeging_beeldsensor",
+                "name": "Beeldsensor",
+                "value": null,
+                "unit": "inch",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "beeldverhouding",
+                "name": "Beeldverhouding",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Een digitale camera heeft vaak de beeldverhouding 3:4 (bv. 11,4 x 15 cm).\n\nDe verhouding 16:9 is vergelijkbaar met de beeldverhouding van een breedbeeldtelevisie en is bij uitstek geschikt voor panoramaopnames."
+            },
+            {
+                "key": "zoomoptical",
+                "name": "Optische zoom",
+                "value": null,
+                "unit": "x",
+                "type": "number",
+                "description": "Optische zoom haalt het onderwerp dichterbij zonder kwaliteitsverlies. Bij digitale zoom wordt er ingezoomd op een deel van de foto en lever je veel aan kwaliteit in. \nVoor gewoon gebruik is 3 tot 5x optische zoom prima."
+            },
+            {
+                "key": "beeldstabilisator",
+                "name": "Beeldstabilisator",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Beeldstabilisatie zorgt voor mooie scherpe foto's. Vooral bij lange sluitertijden of grote zoomafstanden zorgen de kleinste bewegingen al snel voor onscherpe foto's. Beeldstabilisatie corrigeert al die bewegingen, zodat je toch een strakke foto/video kunt maken."
+            },
+            {
+                "key": "dc_groothoek",
+                "name": "Groothoek",
+                "value": null,
+                "unit": "mm",
+                "type": "number",
+                "description": "Met een groothoeklens kun je heel veel op de foto krijgen. Zo kun je een gebouw fotograferen zonder eerst meters achteruit te moeten lopen. Ook voor foto's van grotere groepen binnenshuis is groothoek erg handig.\nKies voor een beeldhoek van minder dan 29mm als je extra groothoek bereik wilt hebben."
+            },
+            {
+                "key": "dc_telebereik",
+                "name": "Tele-bereik",
+                "value": null,
+                "unit": "mm",
+                "type": "number",
+                "description": "Met een lens met veel tele-bereik kun je bijvoorbeeld van veraf mensen fotograferen bij een evenement.\nWil je een supertelebereik? Kies dan voor 200mm of meer."
+            },
+            {
+                "key": "zoomdigital",
+                "name": "Digitale zoom",
+                "value": null,
+                "unit": "x",
+                "type": "number",
+                "description": "Bij digitale zoom wordt er ingezoomd op een deel van de foto en lever je veel aan kwaliteit in. Daarom is een optische zoomlens beter. Voor gewoon gebruik is 3 tot 5x optische zoom prima."
+            },
+            {
+                "key": "lichtgevoeligheidtele",
+                "name": "Lichtgevoeligheid lens tele (F)",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": "Met een hogere lichtgevoeligheid krijg je mooiere foto's bij minder licht. De lichtgevoeligheid in telestand is altijd lager dan in groothoekstand."
+            },
+            {
+                "key": "lichtgevoeligheidgroothoek",
+                "name": "Lichtgevoeligheid lens groothoek (F)",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": "Met een hogere lichtgevoeligheid krijg je mooiere foto's bij minder licht. Tevens kun je een mooie wazige achtergrond krijgen.\nKies voor een waarde van 2.8 of minder voor een maximale lichtgevoeligheid."
+            },
+            {
+                "key": "lcdkantelbaar",
+                "name": "Kantelbaar LCD-scherm",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Bij digitale camera's met een kantelbaar lcd-scherm kun je het scherm vanuit alle hoeken en posities goed zien. Erg handig als je bijvoorbeeld kinderen op ooghoogte wil fotograferen of als je over een mensenmenigte heen foto's wilt maken."
+            },
+            {
+                "key": "lcdsize",
+                "name": "LCD-scherm",
+                "value": null,
+                "unit": "inch",
+                "type": "number",
+                "description": "Op het LCD-scherm van de digitale camera kun je tijdens het fotograferen bekijken wat de camera ziet en na de opname verschijnt de foto even kort in beeld. Veranderingen van instellingen op de camera (via een menu) zijn ook zichtbaar op dit scherm. Met de diagonaal van het scherm wordt de grootte van het LCD-scherm bedoeld. Dit wordt standaard aangegeven in inches. 1 inch = 2,54 cm."
+            },
+            {
+                "key": "dc_touchscreen",
+                "name": "Touchscreen",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "dc_lachdetectie",
+                "name": "Lach detectie",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Lachdetectie is een optie op een camera waarmee de camera zelf ziet of een persoon lacht.\n<br>\nDat werkt zo: je houdt de camera gericht op de persoon die je wilt fotograferen. Op het moment dat deze persoon lacht, zal de camera automatisch de foto maken. Zo heb je altijd foto's met lachende gezichten erop."
+            },
+            {
+                "key": "focus",
+                "name": "Scherpstelling",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Dit geeft aan hoe de camera scherp gesteld kan worden. Dit kan automatisch en/of  handmatig. Elke camera heeft een automatische optie. Ben je al gevorderd kies dan een geavanceerder model met handmatige scherpstelling."
+            },
+            {
+                "key": "viewfinder",
+                "name": "Zoeker",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "serieopname",
+                "name": "Serieopname",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met deze instelling op je camera kun je snel een aantal foto's achter elkaar maken. Dit is vooral handig bij bewegende beelden, bijvoorbeeld van spelende kinderen of bij een sportwedstrijd. Vervolgens kun je de beste foto kiezen."
+            },
+            {
+                "key": "dc_snelheidserieopname",
+                "name": "Snelheid serieopname",
+                "value": null,
+                "unit": "FPS",
+                "type": "number",
+                "description": "De snelheid serieopname geeft aan hoeveel foto's je continue maximaal per seconde kunt nemen bij de hoogste resolutie."
+            },
+            {
+                "key": "intern_geheugen",
+                "name": "Intern geheugen",
+                "value": null,
+                "unit": "MB",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "geheugenkaarten",
+                "name": "Geheugenkaarten",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "bestandsformaten",
+                "name": "Bestandsformaten",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Het meest gebruikte formaat is JPEG. Bij dit formaat wordt het fotobestand verkleind met minimaal kwaliteit/gegevensverlies.\n\nWil je maximale kwaliteit en bewerkingsopties kies dan voor RAW."
+            },
+            {
+                "key": "lichtmeting",
+                "name": "Lichtmeting",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Om een goed belichte foto te maken, beschikken camera's over verschillende automatische lichtmeetsystemen. Handig is de functie \"spotmeting\" om heel precies het licht op een klein gedeelte van de foto te kunnen meten. Hiermee kun je in moeilijk situaties, zoals tegenlicht, tóch een goed belichte foto maken."
+            },
+            {
+                "key": "histogram",
+                "name": "Histogram",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met de histogramfunctie kun je in één oogopslag zien of een foto goed belicht is."
+            },
+            {
+                "key": "diafragma",
+                "name": "Diafragmavoorkeuze",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met diafragma-voorkeuze kun je naast de belichting ook beïnvloeden hoe scherp of onscherp de achtergrond of voorgrond ten opzichte van het hoofdonderwerp van de foto is (scherptediepte).\nMet deze stand heb je meer creatieve vrijheid."
+            },
+            {
+                "key": "sluitertijdvoorkeuze",
+                "name": "Sluitertijdvoorkeuze",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Bij sluitertijd-voorkeuze kun je zelf een sluitertijd instellen. Hierdoor kun je scherpe foto's krijgen van snel bewegende voorwerpen.<br><br>\n Ook kun je er juist voor kiezen om met een langere sluitertijd wat meer \"vegen\" te krijgen en daarmee de beweging van het voorwerp te benadrukken.<br><br>\nMet deze stand heb je kortom meer creatieve vrijheid."
+            },
+            {
+                "key": "sluitertijden",
+                "name": "Sluitertijden",
+                "value": null,
+                "unit": "sec.",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "dc_kortstesluitertijd",
+                "name": "Kortste sluitertijd",
+                "value": null,
+                "unit": "sec.",
+                "type": "number",
+                "description": "De snelste sluitertijd waarover de camera beschikt."
+            },
+            {
+                "key": "dc_langstesluitertijd",
+                "name": "Langste sluitertijd",
+                "value": null,
+                "unit": "sec.",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "dc_laagsteiso-waarde",
+                "name": "Laagste ISO-waarde",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": "Hoe lager de ISO waarde hoe minder lichtgevoelig. Je moet dus fotograferen met langere sluitertijden. Een lage ISO betekent echter wel zeer weinig tot geen beeldruis. Een lage ISO waarde is dus bijzonder geschikt om stillevens of portretten in hoge kwaliteit vast te leggen. Het beste kun je dan wel vanaf een statief werken."
+            },
+            {
+                "key": "dc_hoogsteiso-waarde",
+                "name": "Hoogste ISO-waarde",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": "Een hogere ISO waarde betekent een grotere lichtgevoeligheid. Hiermee kun je fotograferen met korte sluitertijden en zodoende snelle bewegingen vastleggen.\nOok kun je in donkere omstandigheden nog langer fotograferen zonder gebruik van een flitser. Een hoge ISO heeft echter wel een nadeel. Hoe hoger de ISO waarde hoe meer ruis in de foto."
+            },
+            {
+                "key": "aeprogramma",
+                "name": "AE programma's",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Volautomatische digitale camera’s hebben standaardinstellingen (AE-programma’s) voor verschillende situaties, zoals portret, landschap, close-up of actie. Je kiest het juiste programma en de camera kiest automatisch de beste instellingen voor de specifieke situatie."
+            },
+            {
+                "key": "videofunctie",
+                "name": "Videofunctie",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "fullhdfilmen",
+                "name": "Filmen in Full-HD",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Als je met een digitale camera kunt filmen in Full HD wil dat zeggen dat je filmt in een resolutie van 1920 x 1080.\nDit geeft een zeer hoge beeldkwaliteit, zeker wanneer deze beelden bekeken worden op een daarvoor geschikte Full HD televisie."
+            },
+            {
+                "key": "max_videoresolutie",
+                "name": "Videoresolutie",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "fps",
+                "name": "Frames per seconde (FPS)",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": "Bij video wordt de afkorting FPS (frames per seconde) gebruikt om de bewegingssnelheid van de videobeelden uit te drukken. Een normale videocamera \nwerkt met 24 frames per seconde. Worden filmpjes opgenomen met minder frames per seconde, dan wordt het beeld minder vloeiend en schokkerig."
+            },
+            {
+                "key": "dc_onderwatercamera",
+                "name": "Onderwatercamera",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Met onderwatercamera's kun je onder water foto's maken. Ideaal voor leuke foto's onder water van je vakantie."
+            },
+            {
+                "key": "gps",
+                "name": "GPS",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met GPS weet je precies waar jouw foto's en videoclips zijn gemaakt. GPS geeft jouw positie op het scherm weer. Thuis kun je vanachter je pc jouw foto's bekijken waarbij op een plattegrond getoond wordt waar deze zijn gemaakt."
+            },
+            {
+                "key": "weatherproof",
+                "name": "Weatherproof",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Een Weatherproof of All-Weather camera is speciaal ontwikkeld om ook in de meer extreme situaties goed te kunnen fotograferen. De camera is zand- en spatwaterdicht. Deze camera's zijn dus erg geschikt voor outdoorsporten, wintersport of voor op het strand."
+            },
+            {
+                "key": "dc_pictbridge",
+                "name": "Printfunctie",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Bij camera's met deze functie kun je foto's rechtstreeks van de camera printen op een speciale fotoprinter, zonder ze eerst op een computer te zetten. De officiële naam voor dit systeem is PictBridge, maar sommige fabrikanten geven het een eigen naam zoals: DirectPrint en DPOF."
+            },
+            {
+                "key": "gen_nfc",
+                "name": "Near Field Communication (NFC)",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "NFC (Near Field Communication) is een draadloze communicatiemethode voor de korte afstand (max. 10 cm) en bedoeld om data tussen apparaten onderling uit te wisselen door ze bijvoorbeeld even tegen elkaar aan te houden."
+            },
+            {
+                "key": "interface",
+                "name": "Aansluiting(en)",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Camera's beschikken meestal over een USB-aansluiting en een video uitgang. Veel camera’s beschikken ook over een HDMI aansluiting of WiFi.\nMet WiFi kun je de beelden draadloos naar je pc of laptop sturen. Tevens is het mogelijk om met WiFi de beelden rechtstreeks te uploaden naar sociale netwerken als facebook of youtube."
+            },
+            {
+                "key": "dc_voeding",
+                "name": "Voeding",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Accu: geleverd met specifieke accu\nBatterijen: geleverd met alkaline of oplaadbare penlites\nDC: aan te sluiten op het lichtnet via adapter"
+            },
+            {
+                "key": "other",
+                "name": "Overige bijzonderheden",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "weight",
+                "name": "Gewicht",
+                "value": null,
+                "unit": "gram",
+                "type": "number",
+                "description": "Dit is het gewicht zonder accessoires en batterijen."
+            },
+            {
+                "key": "richtgetal",
+                "name": "Richtgetal flitser",
+                "value": null,
+                "unit": "m",
+                "type": "number",
+                "description": "Dit getal geeft aan hoeveel meters de flitser maximaal kan halen bij een foto met flits. Het richtgetal dat bij de specificaties van de camera wordt aangegeven is voor fotograferen met de lens op de groothoekstand. Fotografeer je op tele-stand dan is het richtgetal ongeveer 30% minder."
+            },
+            {
+                "key": "flitsprogramma",
+                "name": "Flitsprogramma",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Naast de volautomatische flits beschikken juist de uitgebreidere camera's over instellingen als \"tweede gordijn\" of \"slow-syc\".<br>\nZeker slow sync is interessant om zowel het hoofdonderwerp als de achtergrond sfeervol uitgelicht te krijgen.<br>\n<b>Tip:</b> werk met deze stand vanaf statief."
+            },
+            {
+                "key": "flitserextern",
+                "name": "Externe flitser",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Bij een aantal camera's kun je een extra flitser aansluiten. Meestal gaat dat dan om een flitser met een hoger richtgetal (waardoor de filters verder reikt).\n<br>\nTevens heb je met externe flitsers nauwelijks last van het rode-ogen effect."
+            },
+            {
+                "key": "def_truecolors",
+                "name": "Kleuren",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Scanners",
+        "image": "scanners.png",
+        "definitions": [
+            {
+                "key": "resoptical",
+                "name": "Optische resolutie",
+                "value": null,
+                "unit": "dpi",
+                "type": "text",
+                "description": "De resolutie is het aantal pixels of beeldpunten per inch in een afbeelding en wordt aangegeven in dpi (dots per inch). Met deze eenheid wordt aangegeven hoe gedetailleerd een afbeelding wordt gescand. Hoe hoger de resolutie, hoe beter de detailweergave in een scan is. Als je documenten gaat inscannen om te archiveren en je bekijkt ze uitsluitend op een monitor dan kan een resolutie van 150 dpi volstaan. Als je een afbeelding scant met de bedoeling om deze ook te printen kun je beter een resolutie van 300 dpi aanhouden."
+            },
+            {
+                "key": "resenhanced",
+                "name": "Maximale resolutie",
+                "value": null,
+                "unit": "dpi",
+                "type": "text",
+                "description": "Naast de standaardresolutie van een scanner wordt ook de enhanced/digitale of maximale resolutie aangegeven. Hiermee wordt de resolutie bedoeld die m.b.v. interpolatie wordt verkregen. Interpolatie is een softwarematige rekenmethode om de grootte, de resolutie of de kleuren van een afbeelding te wijzigen door de pixels voor de nieuwe afbeelding te berekenen aan de hand van de pixels van de oude afbeelding. De scanner maakt er dus eigenlijk beeldpunten bij. De kwaliteit van de scan vermindert hierdoor."
+            },
+            {
+                "key": "colordepth",
+                "name": "Kleurdiepte",
+                "value": null,
+                "unit": "bit",
+                "type": "number",
+                "description": "De kleurdiepte van een scanner wordt aangegeven in bits. Hoe groter de kleurdiepte, hoe meer kleuren er kunnen worden onderscheiden. De meeste van de \nhuidige scanners hebben een kleurdiepte van 48-bits, maar 24-bits is vaak al meer dan voldoende."
+            },
+            {
+                "key": "surface",
+                "name": "Scanoppervlak",
+                "value": null,
+                "unit": "mm",
+                "type": "text",
+                "description": "De afbeeldingsgrootte die een scanner kan scannen. Een A4 is 21 x 29,7 cm."
+            },
+            {
+                "key": "os",
+                "name": "Besturingsysteem",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "sc_toevoegingbesturingssysteem",
+                "name": "Toevoeging besturingssysteem",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "interface",
+                "name": "Interface",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Om de scanner op je computer aan te sluiten wordt er gebruik gemaakt van verschillende aansluitingen (interfaces). Het grootste verschil zit voornamelijk in de hoogte van de snelheid waarmee de scanner de data door kan sturen naar je computer. Let er bij de aankoop van je scanner wel op dat je computer de aansluiting ondersteunt! USB is tegenwoordig het meest gebruikt."
+            },
+            {
+                "key": "technique",
+                "name": "Scantechniek",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Voor een flatbedscanner worden twee verschillende scantechnieken gebruikt, CCD en CIS. Van deze technieken is CCD de meest gebruikte en deze biedt dan ook veel voordelen boven CIS. De CCD scantechniek is namelijk sneller, geeft een hoger beeldkwaliteit en heeft een langere levensduur. CCD is echter wel iets duurder. Een CIS (Contact Image Sensor) scanner wordt o.a. gebruikt in kleine scanners als vervanger voor een CCD."
+            },
+            {
+                "key": "adf",
+                "name": "ADF",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "ADF betekent in het Nederlands: Automatische Document Doorvoer. Met deze functie kun je meerdere vellen papier tegelijk in de scanner plaatsen waarna ze automatisch gescand worden."
+            },
+            {
+                "key": "weight",
+                "name": "Gewicht",
+                "value": null,
+                "unit": "kg",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "transparency",
+                "name": "Transparantenadapter",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Met behulp van een transparantenadapter kun je met een flatbedscanner ook je negatieven en dia's inscannen."
+            },
+            {
+                "key": "scantype",
+                "name": "Scannertype",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Er zijn verschillende soorten scanners op de markt, elk met hun eigen specialiteit."
+            },
+            {
+                "key": "other",
+                "name": "Overige bijzonderheden",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "def_truecolors",
+                "name": "Kleuren",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Inkjet-printers",
+        "image": "inkjet_printers.png",
+        "definitions": [
+            {
+                "key": "def_truecolors",
+                "name": "Kleuren",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "printcolor",
+                "name": "Kleur",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "inktkleuren",
+                "name": "Aantal inktkleuren",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": "Het aantal inktkleuren inclusief de zwarte inkt."
+            },
+            {
+                "key": "separate_cartridges",
+                "name": "Separate inktcartridges",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Veel nieuwe printers beschikken tegenwoordig over meerdere inktcartridges. Dit betekent dat als een kleur op is, je niet de hele kleurencartridge hoeft te vervangen. Dit bespaart geld omdat je niet onnodig ongebruikte inkt hoeft weg te gooien."
+            },
+            {
+                "key": "printresbw",
+                "name": "Resolutie zwart/wit",
+                "value": null,
+                "unit": "dpi",
+                "type": "text",
+                "description": "Hier wordt de maximale resolutie van de printer aangegeven. Omdat de printer op verschillende papiersoorten en diverse media kan afdrukken zal de resolutie variëren. De resolutie van een printer wordt aangegeven in dpi (dots per inch)  en geeft het aantal beeldpuntjes aan dat weergegeven wordt per inch. Hoe meer beeldpunten, hoe hoger de beeldkwaliteit van je afdruk (scherpere tekens en vloeiender overgangen)."
+            },
+            {
+                "key": "printrescolor",
+                "name": "Resolutie kleur",
+                "value": null,
+                "unit": "dpi",
+                "type": "text",
+                "description": "Hier wordt de maximale resolutie van de printer aangegeven. Omdat de printer op verschillende papiersoorten en diverse media kan afdrukken zal de resolutie variëren. De resolutie van een printer wordt aangegeven in dpi (dots per inch)  en geeft het aantal beeldpuntjes aan dat weergegeven wordt per inch. Hoe meer beeldpunten, hoe hoger de beeldkwaliteit van je afdruk (scherpere tekens en vloeiender overgangen)."
+            },
+            {
+                "key": "printspeedbw",
+                "name": "Printsnelheid zwart/wit",
+                "value": null,
+                "unit": "p/m",
+                "type": "number",
+                "description": "De printsnelheid die hier genoemd wordt, is de snelheid voor een standaardprint op A4- formaat(20x30). Dit is een gemiddelde snelheid, de printsnelheid is ook afhankelijk van je computer, de software die je gebruikt en het document dat je wilt gaan printen."
+            },
+            {
+                "key": "printspeedcolor",
+                "name": "Printsnelheid kleur",
+                "value": null,
+                "unit": "p/m",
+                "type": "number",
+                "description": "De printsnelheid die hier genoemd wordt, is de snelheid voor een standaardprint op A4- formaat(20x30). Dit is een gemiddelde snelheid, de printsnelheid is ook afhankelijk van je computer, de software die je gebruikt en het document dat je wilt gaan printen."
+            },
+            {
+                "key": "processor",
+                "name": "Eigen processor",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Sommige printers hebben een ingebouwde processor. Het voordeel hiervan is dat je sneller kunt printen en je computer minder wordt belast bij het printen. De snelheid van de processor wordt aangegeven in Megahertz (MHz). Hoe hoger het getal hoe sneller de processor is."
+            },
+            {
+                "key": "processormhz",
+                "name": "Processorsnelheid",
+                "value": null,
+                "unit": "MHz",
+                "type": "number",
+                "description": "Sommige printers hebben een ingebouwde processor. Het voordeel hiervan is dat je sneller kunt printen en je computer minder wordt belast bij het printen. De snelheid van de processor wordt aangegeven in Megahertz (MHz). Hoe hoger het getal hoe sneller de processor is."
+            },
+            {
+                "key": "standalone",
+                "name": "Printen/bewerken zonder PC",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "lcd",
+                "name": "LCD-scherm",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met behulp van een ingebouwd LCD-scherm op de printer kun je foto’s selecteren, eventueel corrigeren en vervolgens printen."
+            },
+            {
+                "key": "cardreader",
+                "name": "Geheugenkaartlezer",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Bij een printer met een geheugenkaartlezer kun je geheugenkaartjes uit een digitale camera of mobiele telefoon direct in de printer stoppen om foto's te bekijken."
+            },
+            {
+                "key": "media",
+                "name": "Ondersteunde geheugenkaarten",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Hier zie je welke geheugenkaarten de printer kan uitlezen."
+            },
+            {
+                "key": "fotosoftware",
+                "name": "Fotosoftware",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "cdprint",
+                "name": "CD/DVD printen",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Deze techniek maakt het mogelijk om heel eenvoudig cd's of dvd's te bedrukken. Je stopt het schijfje gewoon in de printer. Let op: dit is alleen mogelijk met speciaal hiervoor bestemde cd- of dvd-schijfjes."
+            },
+            {
+                "key": "papera3",
+                "name": "Geschikt voor A3-papier",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Een aantal printers kan zelfs tot het formaat A3+ printen."
+            },
+            {
+                "key": "dubbelzijdig",
+                "name": "Dubbelzijdig printen",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Hier zie je of de printer papier ook dubbelzijdig kan printen."
+            },
+            {
+                "key": "randloos",
+                "name": "Randloos printen",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Bij een aantal inkjetprinters is het mogelijk om je foto’s te printen zonder witte rand. Deze mogelijkheid is vaak alleen aanwezig als je gebruik maakt van speciaal fotopapier."
+            },
+            {
+                "key": "papercapacity",
+                "name": "Papiercapaciteit",
+                "value": null,
+                "unit": "vel",
+                "type": "number",
+                "description": "De papiercapaciteit geeft aan hoeveel vel A4-papier je gelijktijdig in de printer kunt stoppen."
+            },
+            {
+                "key": "paperinput",
+                "name": "Papierinvoer",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "aansluitingen",
+                "name": "Aansluitingen",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Er zijn verschillende manieren om de printer met een PC te verbinden. De belangrijkste zijn usb of (via het netwerk) ethernet of wifi."
+            },
+            {
+                "key": "memory_n",
+                "name": "Geheugen",
+                "value": null,
+                "unit": "MB",
+                "type": "number",
+                "description": "Hier wordt aangegeven over hoeveel geheugen de printer standaard beschikt. De hoeveelheid geheugen is vooral belangrijk voor printers die in een netwerk worden opgenomen (waarbij meerdere pc-gebruikers op een printer printen). Meer geheugen zorgt ervoor dat de printer de opdrachten dan sneller en efficiënter verwerkt."
+            },
+            {
+                "key": "sound",
+                "name": "Geluidsniveau",
+                "value": null,
+                "unit": "dB",
+                "type": "number",
+                "description": "Als je de printer veel gebruikt en hij staat dicht bij je in de buurt, dan is het geluidsniveau van de printer belangrijk. Veel printers maken geluid tijdens het printen. Het geluid van een printer wordt uitgedrukt in decibel (dB). Een printer met 35 dB wordt over het algemeen als prettig ervaren."
+            },
+            {
+                "key": "stroomvoorziening",
+                "name": "Stroomvoorziening",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "De meeste printers sluit je met een stekker aan op het stopcontact, maar er zijn ook al printers op de markt met een oplaadbare accu. Dit geeft je de mogelijkheid om de printer in te zetten op plaatsen waar geen stopcontact is."
+            },
+            {
+                "key": "energysaving",
+                "name": "Energiezuinig",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Energiezuinige printers zijn printers die aan bepaalde eisen voldoen en daardoor beter voor ons milieu zijn. Tegenwoordig springen vrijwel alle printers zuinig om met energie."
+            },
+            {
+                "key": "verbruik",
+                "name": "Energieverbruik",
+                "value": null,
+                "unit": "watt",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "os",
+                "name": "Besturingsysteem",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Hier kun je zien of de printer geschikt is voor het door jou gebruikte besturingssysteem. Bijna alle printers zijn tegenwoordig geschikt voor Windows XP, Vista en 7 en soms ook voor Mac OS X en Linux."
+            },
+            {
+                "key": "pr_inkj_toevoegingbesturingssysteem",
+                "name": "Toevoeging besturingssysteem",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "weight",
+                "name": "Gewicht",
+                "value": null,
+                "unit": "kg",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "other",
+                "name": "Overige bijzonderheden",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Monitors",
+        "image": "monitors.png",
+        "definitions": [
+            {
+                "key": "displaysize",
+                "name": "Formaat (inch)",
+                "value": null,
+                "unit": "inch",
+                "type": "number",
+                "description": "Het formaat van een lcd-monitor wordt uitgedrukt in inches en gemeten van linksonder naar rechtsboven in beeld. Eén inch is 2,54 centimeter."
+            },
+            {
+                "key": "formaatcm",
+                "name": "Formaat (cm)",
+                "value": null,
+                "unit": "cm",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "lm_widescreen",
+                "name": "Breedbeeld",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "lm_breedbeeldformaat",
+                "name": "Beeldverhouding",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "lm_matglanzend",
+                "name": "Mat/glanzend",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "De aanblik van een lcd-monitor wordt voor een groot deel bepaald door het matte of glanzende oppervlak van het beeldscherm. Een mat scherm heeft minder last van spiegeling, terwijl een glanzend scherm vaak een sprankelende kleurweergave heeft. Dit geldt overigens alleen voor het scherm zelf en niet voor de rand er omheen."
+            },
+            {
+                "key": "schermtype",
+                "name": "Schermtype",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            },
+            {
+                "key": "lm_schermtechniek",
+                "name": "Schermtechniek",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "De gebruikte technologie voor een beeldscherm bepaalt voor een groot deel de kwaliteit van een lcd-monitor. Elke schermtechniek heeft zijn specifieke sterke en minder sterke kanten. Er zijn vier technologieën: TN, MVA, PVA en IPS."
+            },
+            {
+                "key": "lm_3d",
+                "name": "3D",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "3D is een extra effect bij je beeldscherm waarbij het lijkt alsof de beelden uit je scherm komen. Hierbij heb je wel een 3D bril nodig."
+            },
+            {
+                "key": "pixel_pitch",
+                "name": "Pixel pitch",
+                "value": null,
+                "unit": "mm",
+                "type": "text",
+                "description": "De afstand tussen twee beeldpunten (ook wel pixels genoemd), gemeten in millimeter. Hoe kleiner dit getal, hoe dichter de pixels bij elkaar staan en hoe scherper het beeld zal zijn. Gemiddelde waarden variëren tussen de 0,25 en 0,22."
+            },
+            {
+                "key": "brightness",
+                "name": "Helderheid",
+                "value": null,
+                "unit": "cd/m²",
+                "type": "number",
+                "description": "De helderheid van een lcd-monitor wordt uitgedrukt in candela per vierkante meter, de eenheid voor lichtsterkte. Hoe hoger dit getal, hoe natuurlijker het beeld overkomt. Gemiddelde waarden variëren tussen de 300 en 500."
+            },
+            {
+                "key": "lm_contrast_n",
+                "name": "Contrast ratio",
+                "value": null,
+                "unit": ":1",
+                "type": "number",
+                "description": "De contrast ratio is de verhouding tussen het aantal stappen die mogelijk zijn tussen zwart en wit. Een waarde van 1000:1 geeft bijvoorbeeld aan dat de monitor het verloop van zwart naar wit in duizend stappen kan weergeven. Een hogere waarde betekent dus een beter contrast. Gemiddelde waarden variëren tussen de 300 en 1000."
+            },
+            {
+                "key": "lm_dynamischcontrast",
+                "name": "Dynamisch contrast",
+                "value": null,
+                "unit": ":1",
+                "type": "number",
+                "description": "Het dynamisch contrast geeft het aantal stappen aan tussen zwart en wit onder de meest gunstige omstandigheden. Onder donkere omstandigheden brandt de backlight van de lcd-monitor minder fel en bij heldere beelden juist feller. Hierdoor wordt het aantal stappen tussen zwart en wit veel groter, waardoor het dynamisch contrast altijd een veel hogere waarde heeft dan het normale schermcontrast."
+            },
+            {
+                "key": "lm_resptime",
+                "name": "Reactiesnelheid",
+                "value": null,
+                "unit": "ms",
+                "type": "number",
+                "description": "De tijd die een lcd-cel nodig heeft om van actief (zwart) naar inactief (wit) en weer terug naar zwart te gaan. Hoe lager dit getal, hoe sneller de lcd-monitor reageert. Vooral bij het spelen van games en het bekijken van films is een lage reactiesnelheid aan te raden. Is die te hoog, dan kan er bij snelle beelden een waas ontstaan. Gemiddelde waarden variëren tussen de 8 en 2."
+            },
+            {
+                "key": "monres_nw",
+                "name": "Resolutie (max.)",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Een lcd-monitor heeft eigenlijk maar één optimale resolutie en die wordt hier gegeven. Houd er rekening mee dat je videokaart of grafische chip deze resolutie ook moet ondersteunen."
+            },
+            {
+                "key": "touch",
+                "name": "Touchscreen",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met een touchscreen is het gebruik van een muis bijna overbodig, je raakt de pictogrammen aan op het beeldscherm."
+            },
+            {
+                "key": "viewangleh",
+                "name": "Horizontale kijkhoek (max.)",
+                "value": null,
+                "unit": "°",
+                "type": "number",
+                "description": "De maximale hoek waaronder je van links of rechts naar de lcd-monitor kunt kijken, zonder dat het beeld niet meer (goed) te zien is."
+            },
+            {
+                "key": "viewanglev",
+                "name": "Verticale kijkhoek (max.)",
+                "value": null,
+                "unit": "°",
+                "type": "number",
+                "description": "De maximale hoek waaronder je van boven of onder naar de lcd-monitor kunt kijken, zonder dat het beeld niet meer (goed) te zien is."
+            },
+            {
+                "key": "hfrequency",
+                "name": "Horizontaal",
+                "value": null,
+                "unit": "kHz",
+                "type": "text",
+                "description": "Deze getallen geven aan, in kilohertz, hoe snel een enkele horizontale lijn op het scherm wordt getekend. Hogere snelheden zorgen voor een duidelijker en stabieler beeld op hogere resoluties."
+            },
+            {
+                "key": "vfrequency",
+                "name": "Verticaal",
+                "value": null,
+                "unit": "Hz",
+                "type": "text",
+                "description": "Deze getallen geven aan, in kilohertz, hoe snel een enkele verticale lijn op het scherm wordt getekend. Hogere snelheden zorgen voor een duidelijker en stabieler beeld op hogere resoluties. Deze waarde staat ook wel bekend als refresh rate of verversingsfrequentie."
+            },
+            {
+                "key": "usb_hub",
+                "name": "USB hub",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "lm_webcam",
+                "name": "Webcam",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met een geïntegreerde webcam in je lcd-monitor heb je geen aparte webcam meer nodig."
+            },
+            {
+                "key": "energiezuinig",
+                "name": "Energiezuinig",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "lm_energievergelijking",
+                "name": "Energievergelijking",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Op Kieskeurig.nl kun je het actuele aanbod van alle energieleveranciers vergelijken. Onafhankelijk en betrouwbaar."
+            },
+            {
+                "key": "lcd_mon_stroomverbruik",
+                "name": "Stroomverbruik (max.)",
+                "value": null,
+                "unit": "watt",
+                "type": "number",
+                "description": "Hier wordt aangegeven hoeveel watt de lcd-monitor aan energie verbruikt bij normaal gebruik."
+            },
+            {
+                "key": "lm_stroomverbruikinstand_by",
+                "name": "Stroomverbruik (stand-by)",
+                "value": null,
+                "unit": "watt",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "interface",
+                "name": "Aansluitingen",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": "Het type aansluiting waarover de lcd-monitor beschikt. Dit kunnen er verschillende zijn, zoals DVI, D-Sub of HDMI. Bovendien bestaan er verloopstukjes voor bijvoorbeeld DVI naar D-sub."
+            },
+            {
+                "key": "hdcp",
+                "name": "HDCP",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "HDCP staat voor 'High-Bandwidth Digital Content Protection'. HDCP is een bescherming van digitale audio- en videosignalen die worden verstuurd via een DVI- of HDMI-verbinding. Deze techniek moet het illegaal kopiëren van bijvoorbeeld films en muziek tegengaan. Bepaalde apparaten, zoals Bluray-spelers, vereisen een afspeelapparaat (monitor of tv) met HDCP, anders wordt de inhoud in een lagere resolutie (oftewel slechtere beeldkwaliteit) of zelfs helemaal niet weergegeven."
+            },
+            {
+                "key": "speakers_yn",
+                "name": "Speakers ingebouwd",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Een lcd-monitor kan beschikken over ingebouwde luidsprekers. Je kunt hier echter beter niet te veel van verwachten, want het geproduceerde geluid is niet te vergelijken met dat van een losse speakerset."
+            },
+            {
+                "key": "lm_vermogenspeakers",
+                "name": "Vermogen speakers",
+                "value": null,
+                "unit": "watt",
+                "type": "number",
+                "description": "Als de lcd-monitor over ingebouwde luidsprekers beschikt, lees je hier het muziekvermogen."
+            },
+            {
+                "key": "headphone",
+                "name": "Hoofdtelefoonaansluiting",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "De mogelijkheid om een hoofdtelefoon op het beeldscherm aan te sluiten."
+            },
+            {
+                "key": "lcd_mon_hoogte_verstelbaar",
+                "name": "In hoogte verstelbaar",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Met een in hoogte verstelbare monitor is het makkelijk om het beeldscherm op de voor jou ideale kijkhoogte te plaatsen."
+            },
+            {
+                "key": "lm_aantalmminhoogteverstelbaar",
+                "name": "Aantal mm in hoogte verstelbaar",
+                "value": null,
+                "unit": "",
+                "type": "number",
+                "description": "Maximale waarde waarin de hoogte van de lcd-monitor is aan te passen."
+            },
+            {
+                "key": "lm_kantelbaar",
+                "name": "Kantelbaar",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Als een lcd-monitor kantelbaar is, kan het beeldscherm verticaal worden gedraaid."
+            },
+            {
+                "key": "kantelhoek",
+                "name": "Kantelhoek",
+                "value": null,
+                "unit": "°",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "lm_draaibaar",
+                "name": "Draaibaar",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": "Als een lcd-monitor draaibaar is, kan het beeldscherm horizontaal worden gedraaid."
+            },
+            {
+                "key": "draaihoek",
+                "name": "Draaihoek",
+                "value": null,
+                "unit": "°",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "lm_muurbeugelbevestiging",
+                "name": "Muurbeugelbevestiging",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "tv_tuner",
+                "name": "TV-tuner",
+                "value": null,
+                "unit": "",
+                "type": "yes_no",
+                "description": null
+            },
+            {
+                "key": "other",
+                "name": "Overige bijzonderheden",
+                "value": null,
+                "unit": "",
+                "type": "text",
+                "description": null
+            },
+            {
+                "key": "weight",
+                "name": "Gewicht",
+                "value": null,
+                "unit": "kg",
+                "type": "number",
+                "description": null
+            },
+            {
+                "key": "def_truecolors",
+                "name": "Kleuren",
+                "value": null,
+                "unit": "",
+                "type": "dialog",
+                "description": null
+            }
+        ]
+    }
+]
